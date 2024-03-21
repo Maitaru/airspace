@@ -24,7 +24,7 @@ export default function Header() {
       </div>
       <nav
         className={`flex z-50 flex-col md:flex-row md:gap-4 md:justify-center absolute md:static ${
-          navShow ? "left-0" : "left-full"
+          navShow ? "left-0" : "left-[100vw]"
         } top-full w-full bg-orange-100 md:bg-transparent`}
       >
         {navLinks.map((link) => (
