@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import SingleListing from "./pages/SingleListing";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
 
 export default function App() {
   function PageLayout() {
@@ -38,6 +40,14 @@ export default function App() {
         {
           path: "/listing/:id",
           element: <SingleListing />,
+        },
+        {
+          path: "/listing/:id",
+          element: <About />,
+        },
+        {
+          path: "/listing/:id",
+          element: <Blog />,
         },
       ],
     },
